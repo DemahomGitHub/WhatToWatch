@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WhatToWatch</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
+    <string name="userNameTV">Username</string>
+    <string name="passwordTV">Password</string>
+    <string name="loginBtnText">Login</string>
+    <string name="registerBtnText">Register</string>
+    <string name="welMsgTV">Welcom !</string>
+    <string name="app_title">What to watch ?</string>
+    <string name="log_inBtnText">Log In</string>
+    <string name="cancelTV">Cancel</string>
+    <string name="confirmPasswordTV">Confirm password</string>
+    <string name="confirmRegistrationBtn">Confirm</string>
+</resources>
