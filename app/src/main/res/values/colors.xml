@@ -4,4 +4,7 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="welTextColor">#641173</color>
+    <color name="homeLvColor">#00020b</color>
+    <color name="researchTVColor">#303F9F</color>
+    <color name="tvCategoryTextViewColor">#000000</color>
 </resources>

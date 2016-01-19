@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_single_movie_details"
+    android:orientation="vertical"
+    tools:context="com.toure.demahom.whattowatch.view.SingleMovieDetailsActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+        <FrameLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="@dimen/ivPosterWidth"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivAndroidPosterID"
+                android:layout_width="@dimen/ivPosterWidth"
+                android:layout_height="@dimen/ivPosterHeight" />
+        </FrameLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvMovieTitleID"
+                android:textSize="@dimen/tvImageTitleSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvMovieTitle"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/tvMovieCategoryID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tvMovieReleaseDateID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tvMovieOriginalLanguageID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tvMoviePopularityID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RatingBar
+                android:id="@+id/rbMovieRatingBarID"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/rbMovieRatinBarHeight"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="left"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp">
+
+        <TextView
+            android:id="@+id/tvMovieOverviewTitleID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Synopsis"
+            android:textStyle="bold"
+            android:textSize="@dimen/tvMovieOverviewTitleSize"
+            android:layout_below="@+id/linearLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/tvMovieOverviewID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -11,7 +11,7 @@
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_login"
-    tools:context="com.toure.demahom.whattowatch.Login">
+    tools:context="com.toure.demahom.whattowatch.view.Login">
 
     <TextView
         android:text="@string/userNameTV"
@@ -20,7 +20,8 @@
         android:layout_marginBottom="@dimen/userNameETMarginBTM"/>
 
     <EditText
-        android:id="@+id/userNameID"
+        android:id="@+id/etLoginUserNameID"
+        android:singleLine="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/userNameETMarginBTM" />
@@ -32,7 +33,7 @@
         android:layout_marginBottom="@dimen/userNameETMarginBTM"/>
 
     <EditText
-        android:id="@+id/passwordID"
+        android:id="@+id/etLoginPasswordID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"

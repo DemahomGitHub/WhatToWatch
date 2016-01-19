@@ -1,16 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">WhatToWatch</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_login">Login</string>
     <string name="title_activity_register">Register</string>
-    <string name="userNameTV">Username</string>
+    <string name="userNameTV">Email</string>
     <string name="passwordTV">Password</string>
     <string name="loginBtnText">Login</string>
     <string name="registerBtnText">Register</string>
-    <string name="welMsgTV">Welcom !</string>
-    <string name="app_title">What to watch ?</string>
+    <string name="welMsgTV">Welcome !</string>
+    <string name="app_title">WTW</string>
     <string name="log_inBtnText">Log In</string>
     <string name="cancelTV">Cancel</string>
     <string name="confirmPasswordTV">Confirm password</string>
     <string name="confirmRegistrationBtn">Confirm</string>
+    <string name="title_activity_tabbed">WTW</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_my_tabbed">WTW</string>
+    <string name="category_tv">Category</string>
+    <string name="home_tv">Home</string>
+    <string name="title_activity_one_category">Category</string>
+    <string name="tvMovieTitle">Movie Title</string>
+    <string name="title_activity_single_movie_details">Movie Details</string>
+    <string name="tvResearchTabTitle">Search for movies</string>
+    <string name="tvMovieResearchLabel">Enter the movie title here</string>
+    <string name="btnConfirmResearchText">Send</string>
+    <string name="title_activity_research_result">Results</string>
+    <string name="tvTopTenMoviesTitle">The most rated movies</string>
+    <string name="tvHomeTabName">Home</string>
+    <string name="tvCategoryTabName">Category</string>
+    <string name="tvTopTenTabName">Top 10</string>
+    <string name="tvResearchTabName">Research</string>
+    <string name="tvHomeListViewTitle">Discover Movies</string>
+    <string name="itmFavoritesMoviesTitle">Favorites</string>
+    <string name="title_activity_favorites_movies_listing">Favorites</string>
+    <string name="tvFavoritesMoviesTitle">Favorites Movies</string>
+    <string name="msgEmptyFavoriteList">No favorite movie yet</string>
+    <string name="msgMovieAddingToFavoritesError">Has already chosen</string>
+    <string name="itmDisconnect">Disconnect</string>
+
 </resources>

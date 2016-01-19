@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_favorites_movies_listing"
+    tools:context="com.toure.demahom.whattowatch.view.FavoritesMoviesActivity">
+
+    <TextView
+        android:id="@+id/tvFavoritesMoviesTitleID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvFavoritesMoviesTitle"
+        android:textSize="35dp"
+        android:textStyle="italic"/>
+
+    <ListView
+        android:id="@+id/lvFavoritesListViewID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/homeLvColor"
+        android:listSelector="@drawable/movie_selector"/>
+
+</LinearLayout>

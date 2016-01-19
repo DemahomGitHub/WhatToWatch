@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/researchTvID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvResearchTabTitle"
+        android:textSize="@dimen/tvResearchTabTitleSize"
+        android:textColor="@color/researchTVColor"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:baselineAligned="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/tvMovieResearchLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="@dimen/tvResearchFieldTitleSize"
+            android:layout_marginTop="@dimen/tvMarginTop"
+            android:layout_marginBottom="@dimen/userNameETMarginBTM"/>
+
+        <EditText
+            android:id="@+id/etMovieTitleFieldID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_marginBottom="@dimen/userNameETMarginBTM" />
+
+        <Button
+            android:id="@+id/btnResearchID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/btnConfirmResearchText"
+            android:layout_marginBottom="@dimen/loginBtnMarginBTM"/>
+
+    </LinearLayout>
+</LinearLayout>

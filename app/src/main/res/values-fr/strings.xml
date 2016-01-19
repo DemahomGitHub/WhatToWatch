@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btnConfirmResearchText">Envoyer</string>
+    <string name="cancelTV">Annuler</string>
+    <string name="category_tv">Catégories</string>
+    <string name="confirmPasswordTV">Confirmer le mot de passe</string>
+    <string name="confirmRegistrationBtn">Confirmer</string>
+    <string name="home_tv">Acceuil</string>
+    <string name="log_inBtnText">Se connecter</string>
+    <string name="loginBtnText">login</string>
+    <string name="passwordTV">mot de passe</string>
+    <string name="registerBtnText">S\'enregistrer</string>
+    <string name="title_activity_login">Se connecter</string>
+    <string name="title_activity_one_category">Categories</string>
+    <string name="title_activity_register">S\'enregistrer</string>
+    <string name="title_activity_research_result">Résultats</string>
+    <string name="title_activity_single_movie_details">Détails</string>
+    <string name="title_activity_tabbed"></string>
+    <string name="tvMovieResearchLabel">Entrer le titre ici</string>
+    <string name="tvMovieTitle">Titre</string>
+    <string name="tvResearchResultTitle">Résultats</string>
+    <string name="tvResearchTabTitle">Recherche</string>
+    <string name="tvTopTenMoviesTitle">Films les mieux notés</string>
+    <string name="userNameTV">Email</string>
+    <string name="welMsgTV">Bienvenue</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="tvHomeTabName">Acceuil</string>
+    <string name="tvCategoryTabName">Catégories</string>
+    <string name="tvTopTenTabName">Top 10</string>
+    <string name="tvResearchTabName">Recherche</string>
+    <string name="tvHomeListViewTitle">Découvrez des films</string>
+    <string name="itmFavoritesMoviesTitle">Favoris</string>
+    <string name="tvFavoritesMoviesTitle">Films Favoris</string>
+    <string name="msgEmptyFavoriteList">Aucun favoris pour l\'instant</string>
+    <string name="msgMovieAddingToFavoritesError">Existe déjà dans les favoris</string>
+    <string name="itmDisconnect">Déconnexion</string>
+</resources>
