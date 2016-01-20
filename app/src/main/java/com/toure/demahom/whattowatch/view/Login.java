@@ -59,7 +59,6 @@ public class Login extends AppCompatActivity {
         });
         setupLoginButtonListener();
         setupVirtualKeyboardListener();
-
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
@@ -112,7 +111,7 @@ public class Login extends AppCompatActivity {
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
-            //progressDialog.show();
+            progressDialog.show();
         }
 
         @Override
@@ -162,7 +161,7 @@ public class Login extends AppCompatActivity {
             //super.onPostExecute(result);
             allUsers = result;
             connectToApplication();
-            //progressDialog.dismiss();
+            progressDialog.dismiss();
         }
 
         private void createConnection(String link) throws IOException{

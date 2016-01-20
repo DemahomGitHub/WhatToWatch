@@ -69,7 +69,6 @@ public class SingleMovieDetailsActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (notFavorite()) {
-                    Log.i("Test","Pas favoris");
                     progressDialog.show();
                     (new HttpPostAsyncTask()).execute(url);
                 }
@@ -86,9 +85,6 @@ public class SingleMovieDetailsActivity extends AppCompatActivity {
 
     public boolean notFavorite() {
         for (AllFavoritesModel movie : allFavorites) {
-            Log.i("Email1",movie.getEmail()+", mv id 1: "+movie.getMovieId());
-            Log.i("Email2",mFavoriteMovie.getUsername()+", mv id 2: "+mFavoriteMovie.getMovieID());
-            Log.i("sUserM",sUserEmail);
             if (movie.getEmail().equals(sUserEmail) && movie.getMovieId() == mFavoriteMovie.getMovieID()) {
                 return false;
             }
